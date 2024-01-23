@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    text-align: center;
+    font-family:sans-serif;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 5px 5px 15px 0 whitesmoke;
+    width: 95%;
+    height: 80px;
+    border-radius:13px;
+    position: fixed;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+}
+.logo{
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.7rem 1 rem;
+    white-space: nowrap ;
+
+}
+.link i{
+    padding-right: 10px;
+
+}
+.link:hover{
+    background-color: rgb(4, 134, 134);
+    color: #fff;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    transition:0.2s ease-in-out ;
+}
+button:hover{
+    background-color:#222;
+    color:#fff ;
+}
+.img{
+    background-image: url(https://i.ibb.co/qRp5KN9/bg-m.jpg);
+    width: 99.9vw;
+    align-items: center;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    display :flex;
+
+
+}
+.img1{
+    background-image: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")      ;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+
+}
+
+.wrapper{
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 40%;
+    width:420px;
+    background:transparent;
+    border:2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    color:aliceblue;
+    border-radius: 10px;
+    padding-bottom: 100px;
+  
+}
+.wrapper h1{
+    font-size:36px;
+    text-align:center;
+}
+.wrapper .input{
+    position:relative;
+    width:100px;
+
+    background:slategray;
+    margin:30px 0;
+}
+.input-box input{
+    width:100px;
+ 
+    background:transparent;
+    border:none;
+    outline: none;
+    border:2px solid rgba(red, green, blue, alpha);
+    border-radius:40px;
+    font-size:16px;
+    color:rgba(240, 255, 255, 0);
+    padding:20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color:rgb(15, 238, 238);
+}
+.input-box .icon{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform: translate(-50%);
+    font-size:16px;
+}
+.wrapper .remember-forget{
+    dispaly:flex;
+    justify-content:space-between;
+    font-size:14.5px;       
+    margin-left:70px;
+}
+.remember-forget label input{
+    accent-color:#eb1818;
+    text-decoration:none;
+}
+.remember-forget a:hover{
+    text-decoration: none;
+}
+.wrapper button{
+    width:200px;
+    height:50px;
+    background:#ffffff;
+    outline: none;
+    border-radius:  40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor:pointer;
+    font-size: 16px;
+    
+    font-weight: 700;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: none;
+}
+
+.pad{
+    position: relative;
+    top:70px
+}
+.c{
+    color: #000000;
+    margin-left: 90px;
+    
+}
+.space{
+    position:relative;
+    left: 100px;
+}
+.si{
+    color: white;
+    margin-left: 40px;
+}
+.f{
+    color: slateblue;
+}
+
+.pass{
+    border-radius: 60px;
+    padding: 5px;
+    margin-left: 110px;
+    text-decoration: none;
+}
+.fb{
+    border-radius: 15px ;
+
+}
+.with{
+    width:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.google{
+    border-radius: '10%';
+}
+.sign{
+    margin-left: 90px;
+    text-decoration: none;
+}
+.login{
+    border-radius: 10px;
+    text-decoration: none;
+}
+.log{
+    margin-left: 13px;
+    color: #000000;
+}
+.ll{
+    text-decoration: none;
+    margin-left: 110px;
+}
+.s_wrapper{
+    margin-left: 400px;
+    margin-top: 100px;
+    height: 40%;
+    width:420px;
+    background:transparent;
+    border:2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    color:aliceblue;
+    border-radius: 10px;
+    padding-bottom: 35%;
+}
+.h1{
+    margin-left: 150px;
+   
+}
+.fnmae{
+    margin-left: 120px;
+    border-radius: 9px;
+}
+.paw{
+    margin-left: 120px;
+    border-radius: 10px;
+}
+.cpaw{
+    margin-left: 120px;
+    border-radius: 10px;
+}
+.or{
+    margin-left: 240px;
+}
+.fb{
+    margin-left: 120px;
+}
+.art{
+    background-color:white;
+    margin-top: 20px;
+    width: 100%;
+}
+.gv{
+    border-radius: 50%;     
+    margin-left: "95px";
+    margin-top: "60px";
+}
+.card{
+    position: absolute;
+    justify-content: center;
+    .card-img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        align-items: center;
+        margin: auto;
+    }
+   .card-title{
+    text-align: center;
+   }
+   
+}
+.lg{
+    background-image: url(https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1A);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.Quote{
+    color:whitesmoke;
+    margin-left: 350px;
+    margin-bottom: 150px;
+}
+.rh{
+    color:whitesmoke;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+.art{
+    background-image: url("https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.gv{
+    color:#fff;
+    text-decoration: none;
+}
+.prakash{
+    background-image: url('https://images.pexels.com/photos/7304689/pexels-photo-7304689.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spb{
+    color:#fff;
+    text-decoration: none;
+}
