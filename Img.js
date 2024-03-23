@@ -4,9 +4,10 @@ function Img() {
   return (
    <>
       <div className="img">
-      <div>
-        <h2 className='rh'>Rhythm</h2>
-       <h4 className='Quote'>“Music is the universal language of mankind.” </h4>
+      <div className='quotes'>
+        <h2 className='rh'>Musical Mirage</h2>
+        <h3 className='qte'>Music is the divine way to tell beautiful, poetic things to the heart.</h3>
+       <h4 className='Quote'> </h4>
      </div>
       </div>
        
