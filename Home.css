@@ -301,14 +301,13 @@ button:hover{
     padding-bottom: 50px;
     
 }
-.Quote{
-    color:whitesmoke;
-    margin-left: 350px;
-    margin-bottom: 150px;
+.qte{
+    color: #fff;
+    padding-left: 500px;
 }
 .rh{
     color:whitesmoke;
-    margin-left: 530px;
+    padding-left: 770px;
     margin-top: 50px;
 }
 .art{
